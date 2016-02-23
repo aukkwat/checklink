@@ -2,13 +2,6 @@
 import urllib2
 import datetime
 
-import m3u8
-from bitreader import BitReader
-from ts_segment import TSSegmentParser
-
-num_segments_to_analyze_per_playlist = 1
-max_frames_to_show = 30
-
 listurl = 'http://devtab.com/services/thaitv_live/'
 for link in urllib2.urlopen(listurl):
     link = link.replace('<br/>','\n')
