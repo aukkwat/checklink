@@ -51,6 +51,7 @@ http://119.81.20.186:1935/hottv/hottv.stream/playlist.m3u8
 http://122.155.180.109:1935/live/rsulive/playlist.m3u8
 http://183.90.170.8/ch1/th1pba.isml/manifest(format=m3u8-aapl).m3u8
 http://183.90.170.8:1935/dcinode001/nation.sdp/playlist.m3u8
+http://183.90.170.8:1935/dcinode001_money/smil:moneylive.smil/playlist.m3u8
 http://202.129.206.189:1935/live/flash1910/playlist.m3u8
 http://202.129.206.189:1935/live/veteethai/.m3u8
 http://202.142.207.150:1935/live/liveinfinity3/playlist.m3u8?wowzasessionid=891847726
@@ -65,7 +66,6 @@ http://202.170.123.78/nationlive.isml/manifest(format=m3u8-aapl).m3u8
 http://202.170.127.178/ramalive.isml/manifest(format=m3u8-aapl).m3u8
 http://202.170.127.178:1935/dcinode001/bkkbiztotv.sdp/playlist.m3u8
 http://202.170.127.195/astvlive.isml/QualityLevels(256000)/manifest(format=m3u8-aapl).m3u8
-http://202.170.127.195/astvlive.isml/QualityLevels(672000)/manifest(format=m3u8-aapl).m3u8
 http://202.170.127.195/peoplelive.isml/manifest(format=m3u8-aapl).m3u8
 http://202.170.127.201/peoplelive.isml/manifest(format=m3u8-aapl).m3u8
 http://202.173.216.8:1935/live/ch8/playlist.m3u8
@@ -88,6 +88,7 @@ http://211.220.195.200:1935/live/KnnTv.stream/playlist.m3u8
 http://27.131.144.177:1935/live/live/.m3u8
 http://27.254.44.112:1935/sanooklive1/sanooklive1/playlist.m3u8?wowzasessionid=628954733
 http://43.228.84.15/vlive3/d47c51ccda0b2a66dce7a648cbbe82b00fff4674.m3u8
+http://49.231.20.61:8158/FreeTVChannel/StreamService/SD/NEWS1/heve.m3u8
 http://49.231.20.68:8158/FreeTVChannel/StreamService/SD/CH7/heve.m3u8
 http://49.231.20.74:8158/FreeTVChannel/StreamService/SD/SPRINGNEWS/heve.m3u8
 http://49.231.20.77:8158/FreeTVChannel/StreamService/LowSpeed/2/heve.m3u8
@@ -177,7 +178,6 @@ http://edge3.psitv.tv:1935/liveedge/292277210375_300/chunklist_w.m3u8
 http://edge3.psitv.tv:1935/liveedge/307947436081_600/chunklist_w.m3u8
 http://edge4.psitv.tv:1935/liveedge/292277190845_300/playlist.m3u8
 http://edge4.psitv.tv:1935/liveedge/308065531544_300/playlist.m3u8
-http://edge4.psitv.tv:1935/liveedge/308065531544_600/playlist.m3u8
 http://edge4.psitv.tv:1935/liveedge/308347215683_600/playlist.m3u8
 http://edge4.psitv.tv:1935/liveedge/308380113709_300/playlist.m3u8
 http://edge4.psitv.tv:1935/liveedge/308380113709_600/playlist.m3u8
@@ -214,6 +214,7 @@ http://edge6.psitv.tv:1935/liveedge/314743603634_600/playlist.m3u8
 http://edge6.psitv.tv:1935/liveedge/315169292295_300/playlist.m3u8
 http://edge6.psitv.tv:1935/liveedge/315169292295_300/playlist.m3u8 http://edge6.psitv.tv:1935/liveedge/315169292295_600/playlist.m3u8
 http://edge7.psitv.tv:1935/liveedge/292277227873_600/playlist.m3u8
+http://edge7.psitv.tv:1935/liveedge/308065531544_300/playlist.m3u8
 http://edge7.psitv.tv:1935/liveedge/308524491567_300/playlist.m3u8
 http://edge8.psitv.tv:1935/liveedge/307803302519_600/playlist.m3u8
 http://edge8.psitv.tv:1935/liveedge/308806374084_600/playlist.m3u8
@@ -266,7 +267,6 @@ http://nationstream.nationgroup.com/live.isml/QualityLevels(48000)/manifest(form
 http://nationstream.nationgroup.com/live.isml/QualityLevels(648000)/manifest(format=m3u8-aapl)
 http://newtv.cdn.byteark.com/live/playlist_576p/index.m3u8
 http://p0.adintrend.com/live/ch34/i/ch34i.m3u8
-http://p1.adintrend.com/live/ch24/i/ch24i.m3u8?sid=aqrY2ZiMjVmNGQ5MmIxZTQ2MWY1ZDVmZjkyNzRkM2JjMTU
 http://plslive-w.nhk.or.jp/nhkworld/app/live.m3u8
 http://plslive-w1.nhk.or.jp/http-live/nhkworld-ios-live1/delivery/index_mid.m3u8
 http://pptv.cdn.byteark.com/live/playlist.m3u8
@@ -423,4 +423,13 @@ http://tpbsedge.101g.net:8088/liveedge/tpbsmo1.stream/playlist.m3u8
 http://tpbsedge.101g.net:8088/liveedge/tpbsmo4.stream/playlist.m3u8
 http://tpbsedge.101g.net:8088/liveedge/tpbsmo5.stream/playlist.m3u8
 http://vip.login.in.th:1935/centralchannel/centralchannel/playlist.m3u8
-http://vip.login.in.th:1935/ideatv8/ideatv8/playlist.m3
+http://vip.login.in.th:1935/ideatv8/ideatv8/playlist.m3u8
+http://vip.login.in.th:1935/RROMDTV/RROMDTV/playlist.m3u8
+http://vip.login.in.th:1935/ToplineChannel/ToplineChannel/playlist.m3u8
+http://www.atxmediaserver.com:1935/MysteryChannel/MysteryChannel/playlist.m3u8
+http://www.atxmediaserver.com:1935/NiceChannel/NiceChannel/playlist.m3u8
+http://www.innnews.co.th/shownews/home
+http://www.m-channel.com:1935/live/my_stream.sdp/playlist.m3u8
+http://www.thaich8.com:1935/live/liveinfinity2/playlist.m3u8
+http://www.thaich8.com:1935/live/livesabaidee1/playlist.m3u8
+http://www.thaich8.com:1935/live/liveyouchannel1/playlist.m3u8
