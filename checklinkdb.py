@@ -1,3 +1,4 @@
+#!/usr/bin/python
 #Checklink from URL
 import urllib2
 import datetime

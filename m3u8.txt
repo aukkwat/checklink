@@ -424,4 +424,12 @@ http://tpbsedge.101g.net:8088/liveedge/tpbsmo4.stream/playlist.m3u8
 http://tpbsedge.101g.net:8088/liveedge/tpbsmo5.stream/playlist.m3u8
 http://vip.login.in.th:1935/centralchannel/centralchannel/playlist.m3u8
 http://vip.login.in.th:1935/ideatv8/ideatv8/playlist.m3u8
-http://vip.login.in.th:1935/RROMDTV/RR
+http://vip.login.in.th:1935/RROMDTV/RROMDTV/playlist.m3u8
+http://vip.login.in.th:1935/ToplineChannel/ToplineChannel/playlist.m3u8
+http://www.atxmediaserver.com:1935/MysteryChannel/MysteryChannel/playlist.m3u8
+http://www.atxmediaserver.com:1935/NiceChannel/NiceChannel/playlist.m3u8
+http://www.innnews.co.th/shownews/home
+http://www.m-channel.com:1935/live/my_stream.sdp/playlist.m3u8
+http://www.thaich8.com:1935/live/liveinfinity2/playlist.m3u8
+http://www.thaich8.com:1935/live/livesabaidee1/playlist.m3u8
+http://www.thaich8.com:1935/live/liveyouchannel1/playlist.m3u8
