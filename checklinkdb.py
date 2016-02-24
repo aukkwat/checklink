@@ -2,6 +2,7 @@
 import urllib2
 import datetime
 import MySQLdb
+import time
 
 db = MySQLdb.connect("docker", "root", "bigmaster", "checklink", 3306)
 listurl = 'http://devtab.com/services/thaitv_live/'
@@ -19,9 +20,7 @@ for link in urllib2.urlopen(listurl):
 m3u8 = open('m3u8.txt','r')
 i = 0
 j = 0
-# timestamp = ('{:%Y-%b-%d %H:%M:%S}'.format(datetime.datetime.now()))
-now = datetime.datetime(2009,5,5)
-timestamp = now.date().isoformat()
+timestamp = ('{:%Y-%m-%d %H:%M:%S}'.format(datetime.datetime.now()))
 for bR in m3u8:
     print "-"*50
     j=j+1
