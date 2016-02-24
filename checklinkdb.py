@@ -2,21 +2,24 @@
 import urllib2
 import datetime
 import MySQLdb
-import time
-
+### Connect Mysql Database ###
 db = MySQLdb.connect("docker", "root", "bigmaster", "checklink", 3306)
+### List URL Per Line in 1 URL ###
 listurl = 'http://devtab.com/services/thaitv_live/'
+### Database Cursor ###
 cursor = db.cursor()
 sql = '''INSERT INTO linkchecked(datecheck, urlcheck, statuscheck) \
                 VALUES (%s, %s, %s)'''
+### StatusCheck Code ###
 passstatus = 1
 errorstatus = 0
 nonestatus = -1
-
+### Open urllist from link and write in m3u8.txt ###
 for link in urllib2.urlopen(listurl):
     link = link.replace('<br/>','\n')
     result=open("m3u8.txt","w")
     result.write(link)
+### Check Url from m3u8.txt and write in DB and Text file###
 m3u8 = open('m3u8.txt','r')
 i = 0
 j = 0
