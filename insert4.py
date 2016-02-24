@@ -5,7 +5,7 @@ db = MySQLdb.connect(host="10.211.55.30",    # your host, usually localhost
                      user="root",         # your username
                      passwd="bigmaster",  # your password
                      db="checklink",      # name of the data base
-                     port=3308)        # port if tge data base
+                     port=3306)        # port if tge data base
 
 # prepare a cursor object using cursor() method
 cursor = db.cursor()
