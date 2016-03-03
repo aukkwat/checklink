@@ -203,3 +203,6 @@
 2016-Feb-24 16:24:15 >>>Error>>> http://58.64.37.129/DooPlusLiveTV/live/1026/heve.m3u8
 2016-Feb-24 16:25:30 >>>Error>>> http://58.64.37.129/DooPlusLiveTV/live/3026/heve.m3u8
 2016-Feb-24 16:26:46 >>>Error>>> http://61.19.247.178/hls-live/livepkgr/_definst_/liveevent/mgtv.m3u8
+2016-Feb-24 23:08:44 >>>Error>>> http://103.14.10.10:1935/liveedge/mp4:307331126227_600/chunklist_w517449714.m3u8
+2016-Feb-24 23:08:48 >>>Error>>> http://103.14.10.13:1935/liveedge/292277384635_600/playlist.m3u8
+2016-Feb-25 11:35:59 >>>Error>>> http://103.14.10.10:1935/liveedge/mp4:307331126227_600/chunklist_w517449714.m3u8
